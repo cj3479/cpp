@@ -6,3 +6,7 @@
 #define TESTC___TESTEXTERNAL_H
 
 #endif //TESTC___TESTEXTERNAL_H
+extern int a;
+extern "C"{
+void testPointer(int *p);
+}
